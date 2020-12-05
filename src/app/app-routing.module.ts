@@ -17,7 +17,7 @@ import { QuicklinkModule, QuicklinkStrategy } from 'ngx-quicklink';
 
 
 
-import { AuthGuard } from './auth/auth.guard';
+
 
 const routes: Routes = [
   
@@ -31,7 +31,7 @@ const routes: Routes = [
   { path: 'About', component: AboutComponent },
   { path: 'Who', component: WhoComponent },
   { path: 'Feature', component: FeatureComponent },
-  {path:  'contact', component: ContactComponent,canActivate:[AuthGuard],
+  {path:  'contact', component: ContactComponent,
    data: {title: `Lista de Contato`}
   },
  

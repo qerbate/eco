@@ -34,7 +34,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatSelectModule } from '@angular/material/select';
 import {MatStepperModule} from '@angular/material/stepper';
-import { ChartsModule } from 'ng2-charts';
+
 import {ModalModule} from 'ngx-bootstrap/modal';
 
 
@@ -45,8 +45,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 
 import { NgxScrollTopModule } from 'ngx-scrolltop';
 
-import { UserService } from './shared/user.service';
-import { AuthGuard } from './auth/auth.guard';
+
+
 
 
 
@@ -95,7 +95,7 @@ import { AuthGuard } from './auth/auth.guard';
     MatButtonToggleModule,
     MatSelectModule,
     MatStepperModule,
-    ChartsModule,
+   
     ModalModule.forRoot(),
     
     MatToolbarModule,
@@ -106,7 +106,7 @@ import { AuthGuard } from './auth/auth.guard';
    
     
   ],
-  providers: [AuthGuard, UserService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
