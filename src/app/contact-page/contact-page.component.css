@@ -1,11 +1,13 @@
 .contact-page {
   top: 0;
   margin: 0;
-  padding: 0;
-  width: 550%;
+  padding: 0px 0px 0px 0px;
+  width: 120%;
   height: 100%;
+  
   display: block;
   background-color: #303F9F;
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,13 +15,13 @@
 }
 
 .mat-card {
-  width: 30%;
+  width: 100%;
   
-  margin: 0%, 30%;
+  margin: 0%, 50% 100%;
   border-radius: 8px;
 }
 .mat-form-field, .mat-checkbox {
-  width: 70%;
+  width: 100%;
   height: 50%;
   display: block;
   margin: auto;
