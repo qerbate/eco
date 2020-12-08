@@ -94,6 +94,7 @@
 @media (max-width: 1520px) {
   .hero_area {
       height: auto;
+      max-height: 30%;
   }
 
   .slider_section {
